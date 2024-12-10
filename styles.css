@@ -1,0 +1,51 @@
+.box {
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    flex: 1;
+}
+
+.gridContainer {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 750px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.error-message {
+    font-size: 12px;
+    color: red;
+}
